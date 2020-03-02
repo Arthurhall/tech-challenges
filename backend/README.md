@@ -14,6 +14,11 @@ php -S localhost:8080 -t web web/index.php
 #Go to http://localhost:8080, you will see "Status OK"
 ```
 
+## Endpoints
+
+* Expose the surveys : http://localhost:8080/api/1.0/surveys
+* Aggregate the answers by survey code : http://localhost:8080/api/1.0/surveys/aggregation
+
 ## Guidelines
 
 We want to see your skills to design business code to produce **efficient** and **maintainable** code over time. This exercise might seem simple and some shortcuts can be used to develop these features quickly but we are more interested in how you might structure your code and classes if these features were to be just the **beginning of a larger project** destined to **evolve in time**.
